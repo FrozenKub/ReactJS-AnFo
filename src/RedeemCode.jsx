@@ -10,7 +10,7 @@ class redeemCode extends React.Component {
 
 
     handleSubmit(props) {
-        if (this.state.code == TrueCode)
+        if (props == TrueCode)
         {
             alert('We accepted your code: ' + this.state.code);
         }
